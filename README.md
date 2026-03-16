@@ -70,7 +70,7 @@ jobs:
       run: |
         aws s3 sync . s3://${{ secrets.S3_BUCKET_NAME }} --delete
 
-     Step-by-Step Explanation (What You Say in Interview)
+ Step-by-Step Explanation :
 1. Trigger Stage
 
 “The workflow is triggered whenever a developer pushes code to the main branch of the GitHub repository. This ensures that any new updates are automatically deployed without manual intervention.”
